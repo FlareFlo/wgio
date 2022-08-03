@@ -1,0 +1,20 @@
+{
+  "name": "wgio_desktop",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "encore production && sass --no-source-map scss/in:scss/out && tauri build",
+    "dev": "encore dev &&  tauri dev",
+    "sass_watch": "sass scss/in:scss/out && sass --watch scss/in:scss/out"
+  },
+  "dependencies": {
+    "@symfony/webpack-encore": "^2.1.0",
+    "@tauri-apps/api": "^1.0.0-rc.4",
+    "core-js": "^3.22.4",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "ts-loader": "^9.0.0",
+    "typescript": "^4.6.4"
+  }
+}

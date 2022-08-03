@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+	"wgio_desktop/src-tauri",
+	"wgio_server",
+	"wgio_util",
+]

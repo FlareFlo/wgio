@@ -1,0 +1,6 @@
+.idea
+target
+
+wgio_desktop/node_modules
+wgio_desktop/src-tauri/WixTools
+wgio_desktop/scss/out
